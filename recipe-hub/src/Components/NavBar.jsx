@@ -6,7 +6,7 @@ import { GlobalContext } from '../Context/GlobalState'
 const NavBar = () => {
 
     const { searchParam, setSearchParam, HandleSubmit } = useContext(GlobalContext)
-
+    console.log(searchParam);
     return (
         <div className='flex justify-around items-center pb-18'>
             <Link to='/' className='font-bold font-serif text-xl'>Recipe Hub</Link>
