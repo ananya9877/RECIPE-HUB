@@ -1,6 +1,11 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
 const Details = () => {
+
+  const params = useParams()
+  console.log(params);
+
   return (
     <div className='flex flex-wrap gap-10 min-h-4/5 justify-center-safe items-start'>
       <div className='h-3/4 w-3/7 overflow-hidden rounded-md shadow-2xl shadow-amber-800'>
