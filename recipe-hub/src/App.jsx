@@ -9,7 +9,7 @@ function App() {
   
   return (
     <>
-      <div className='min-h-screen w-full bg-amber-500 py-7 px-3 '>
+      <div className='min-h-screen w-full bg-amber-100 py-7 px-3 '>
         <NavBar/>
         <Routes>
           <Route path="/" element={<Home/>}></Route>
