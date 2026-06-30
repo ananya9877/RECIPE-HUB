@@ -1,16 +1,78 @@
-# React + Vite
+# 🍽️ Recipe Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based Recipe Finder application that allows users to search for recipes, view detailed cooking instructions and ingredients, and save their favorite recipes for quick access. The application fetches real-time recipe data from the Forkify API and provides a clean, responsive user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search recipes by keyword
+- 📖 View detailed recipe information
+- 🥘 Display ingredients with quantities and units
+- ❤️ Add or remove recipes from Favorites
+- 💾 Persist favorite recipes using Local Storage
+- ⚡ Fast client-side navigation with React Router
+- 📱 Fully responsive interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- React Router DOM
+- Context API
+- Tailwind CSS
+- JavaScript (ES6+)
+- Fetch API
+- Local Storage
+- Forkify API
+
+---
+
+## 🔗 API Used
+
+This project uses the **Forkify API** to fetch recipe data.
+
+---
+
+## 💡 How It Works
+
+1. Enter a recipe name in the search bar.
+2. Browse the list of matching recipes.
+3. Click a recipe to view its details.
+4. Save your favorite recipes with the **Add to Favorites** button.
+5. Access all saved recipes from the **Favorites** page.
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home](public/HomeSS.png)
+
+### Recipe Details
+
+![Details](public/DetailsSS.png)
+
+### Favorites
+
+![Favorites](public/FavoritesSS.png)
+
+---
+
+
+## 🎯 Future Improvements
+
+- User authentication
+- Dark mode
+- Pagination
+- Search suggestions
+- Recent search history
+
+---
+GitHub: https://github.com/your-github-username
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
