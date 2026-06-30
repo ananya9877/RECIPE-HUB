@@ -9,8 +9,10 @@ function App() {
   
   return (
     <>
-      <div className='min-h-screen w-full bg-amber-100 py-7 px-3 '>
-        <NavBar/>
+      <div className='min-h-screen w-full bg-stone-50 py-7 px-3 '>
+          <NavBar />
+        {/* <div className="sticky top-0"> */}
+        {/* </div> */}
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route path="/favorites" element={<Favorites/>}></Route>
